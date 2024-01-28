@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  
     background: linear-gradient(rgb(228, 0, 249), rgb(166, 71, 229));
   }
 
@@ -98,6 +97,11 @@ body {
     opacity: 0.25;
   }
   @media screen and (max-width:460px) {
+    body{
+        align-items: baseline;
+      
+    }
+    
     #yes2Button {
         position: absolute;
         margin-left: 50px;

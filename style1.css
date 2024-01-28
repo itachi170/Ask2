@@ -97,14 +97,10 @@ body {
     opacity: 0.25;
   }
   @media all and (max-width:460px) {
-    
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        background: linear-gradient(rgb(228, 0, 249), rgb(166, 71, 229));
-      }
+    body{
+        align-items: baseline;
+    }
+   
    .container{
     width: 90%;
     height: 60%;
